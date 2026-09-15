@@ -1,0 +1,14 @@
+a=[[1,2],[3,4]]
+b=a.copy()
+#b[0].append(5)
+print(a) #5 ist list me add ho jyega a me bhi or b me bhi becuse copy sirf outerlist hoga
+print(b)
+#Because copy() ne sirf outer list ka copy banaya.
+
+
+#deepcopy ka use krenge agr a and b alg alg cheya
+import copy
+a=[[1,2,3,4],[1,2,3,4,5]]
+b=copy.deepcopy(a)
+print(a)
+print(b)

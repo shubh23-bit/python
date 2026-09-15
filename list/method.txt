@@ -1,0 +1,42 @@
+len()
+
+append()==>single value append krta h list me
+extend()==>
+
+insert()==>index and value leta h jaha pe insert krna hota h
+
+remove() ==> return krta h null but remove the value and leta bhi value h
+pop()==>return krta h value ko and leta h index value
+
+clear()==>value clear kr deta h list me se but list ko save rakhata h memory me
+del()==>puri list hi delte kr deta h
+
+slicing()
+
+in()
+not in()
+index()
+count()
+
+reverse()==> ye bhu none return krta h
+revesed()
+
+min()
+max()
+sum()
+
+any()==>check if one value is tru rewtun true 
+all()==>if every value is ture then send true otherwise false
+
+sort() ==> return none krta h aur original list ko sort kr deta 
+sorted()==>==>origin list same rehti h and retun sorted list
+
+copy()==>new list bna deta h
+= =>list same rehti h bus reference ban jata h to jo chnage a me hoga same b me
+
+
+==  → values/content compare
+is  → identity/object compare
+
+shallow copy==> a an b ko same rakhta h agr ham kisi ek me bhi change krre to dono me changes apply hote h shallow copy only copy outer list
+deepcopy==> deepcopy me a and b ke data different treat hota h if any changes in a to b me reflect nhi hota
